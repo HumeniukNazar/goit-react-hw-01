@@ -13,21 +13,21 @@ const Profile = ({ name, tag, location, image, stats }) =>
  />
  <p className={s.name}>{name}</p>
  <p className={s.tag}>@{tag}</p>
- <p>{location}</p>
+ <p className={s.city}>{location}</p>
  </div>
 
  <ul className={s.statsList}>
   <li className={s.listItem}>
-   <span>Followers</span>
-   <span>{stats.followers}</span>
+   <span className={s.statName}>Followers</span>
+   <span className={s.statQuant}>{stats.followers}</span>
   </li>
   <li className={s.listItem}>
-   <span>Views</span>
-   <span>{stats.views}</span>
+   <span className={s.statName}>Views</span>
+   <span className={s.statQuant}>{stats.views}</span>
   </li>
   <li className={s.listItem}>
-   <span>Likes</span>
-   <span>{stats.likes}</span>
+   <span className={s.statName}>Likes</span>
+   <span className={s.statQuant}>{stats.likes}</span>
   </li>
  </ul>
 </div>
