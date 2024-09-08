@@ -4,7 +4,7 @@ const Profile = ({ name, tag, location, image, stats }) =>
 {
     return (
         <div className={s.card}>
- <div>
+ <div className={s.wrapper}>
   <img
   
  src={image}

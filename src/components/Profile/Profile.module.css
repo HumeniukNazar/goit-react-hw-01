@@ -8,6 +8,14 @@
   border-radius: 10px;
   overflow: hidden;
   gap: 20px;
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .name {
